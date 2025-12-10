@@ -1,0 +1,14 @@
+Function - Letter or word that lets you do something (for example - "print")
+
+Arguement - Input to Function
+
+Types of data
+- str - string
+
+
+What you can pass to functions = Parameters 
+
+examples of parameters:
+*objects - print can take any number of objects
+sep=' '  - seperator (single blank space)
+end= '\n' - New line (end)
