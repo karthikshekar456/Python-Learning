@@ -1,0 +1,82 @@
+Parameters
+- They are optional, they can be passed at last of print statement
+
+=================
+#Say hello to user
+print('hello, "friend"')
+==================
+
+\n - escape (new line)
+
+"\" escaping
+
+=================
+#Say hello to user
+print("hello, \"friend\"")
+==================
+
+f string - format string in a special way
+
+====================
+name = input("What's your name?")
+print(f"hello, {name}")
+====================
+
+String methods
+name = name.strip() - remove spaces from the beginning and end of the string
+here, strip() method is used
+
+is string a function?
+- yes
+
+another example of method to capitalize
+============
+# Ask user for their name
+name = input("What's your name?")
+
+# Remove Whitespaces from str
+name = name.strip()
+
+name = name.capitalize() # Capitalize first letter of the string
+
+name = name.title() # Capitalize first letter of each word
+
+# Say hello to user
+print(f"hello, {name}")
+
+How to chain the above functions?
+- name.strip().capitalize()
+- name.strip().title()
+===============
+
+Another example
+==========================
+name = input("What's your name?").strip().capitalize()
+print(f"hello, {name}")
+==========================
+
+
+Another methods under str is "split" - split string into list of words
+====================
+# Ask user for their name
+name = input("What's your name?").strip().title()
+
+# Split user's name into first and last names
+first, last = name.split(" ")
+
+# Say hello to user
+print(f"hello, {first}")
+=====================
+
+****** Integers (int)
+Python supports below symbols
++
+-
+*
+/ - division
+// (floor division) - integer division
+% (modulo)
+
+Interactive mode
+-----------------
+
