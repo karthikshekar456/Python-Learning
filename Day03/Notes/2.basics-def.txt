@@ -1,0 +1,67 @@
+****** def function - Define
+
+- Create/invent your own function
+
+example
+============
+def hello():
+    print("hello")
+name = input("What's your name?")
+hello()
+print(name)
+=============
+
+Another example
+====================
+============
+def hello(to): # define with parameter - to
+    print("hello,", to)
+name = input("What's your name?")
+hello(name)
+
+=============
+
+Another variation
+============
+def hello(to="world"): # define with parameter - to
+    print("hello,", to)
+hello()
+name = input("What's your name?")
+hello(name)
+
+================
+
+If you are defining a function, it has to be called before it is used.
+
+how to fix it?
+============
+def main():
+    name = input("What's your name?")
+    hello(name)
+
+def hello(to="world"):
+    print("hello,", to)
+
+main()
+=============
+why it works? - call stack
+
+
+****** Scope
+What is scope?
+- The area in which a variable is visible.
+
+****** Return
+- return value from a function
+
+Example
+========
+def main():
+    x = int(input("What's x?))
+    print("x squared is", square(x))
+
+def square(n)
+    return n * n
+
+main()
+========
