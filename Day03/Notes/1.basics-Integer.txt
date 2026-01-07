@@ -1,0 +1,78 @@
+Integers
+----------
+
+In the below code, due to the use of input, it is considering the input as a string.
+========
+x = input("what's x?")
+y = input("What's y?")
+
+z = x + y
+
+print(z)
+=========
+To solve this, we need to convert the input to an integer.
+
+========
+x = input("what's x?")
+y = input("What's y?")
+
+z = int(x) + int(y)
+
+print(z)
+=========
+
+Do we need a "z" here?
+
+========
+x = int(input("what's x?"))
+y = int(input("What's y?"))
+
+print(x+y)
+========
+
+We can nest functions.
+
+****** Float
+Example:
+========
+x = float(input("what's x?"))
+y = float(input("What's y?"))
+
+print(x+y)
+========
+
+How to round off a number? to nearest integer.
+- use round() function.
+
+round(number[, ndigits])
+
+Example:
+========
+x = float(input("what's x?"))
+y = float(input("What's y?"))
+
+z = round(x + y)
+
+print(f"{z:,}")
+===========
+What this above example do?
+- include comma in the output.
+
+Use division
+==============
+x = float(input("what's x?"))
+y = float(input("What's y?"))
+
+z = x / y
+
+print(z)
+==============
+
+Below is another example
+x = float(input("what's x?"))
+y = float(input("What's y?"))
+
+z = x / y
+
+print(f"{z:.2f}")
+
