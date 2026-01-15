@@ -1,0 +1,9 @@
+***** Loops
+Doing repeatable tasks
+
+* While - execute loops until a condition is met
+
+* List - execute a set of commands multiple times
+
+* dict - dictionary that assigns one value with another
+
