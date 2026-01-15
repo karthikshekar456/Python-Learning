@@ -1,0 +1,18 @@
+Operators Used
+----------------
+
+>
+>=
+<
+<=
+==
+!=
+
+If - a keyword in python, for conditional statements.
+elif - else if : for multiple conditions.
+or - for multiple conditions. used for logical OR.
+and - for multiple conditions. this is used for logical AND.
+
+****** Parity
+
+bool = boolean
